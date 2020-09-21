@@ -11,10 +11,8 @@ function App() {
     <div class="content">
 
     <div class="sticky-container">
-      <a href="#" class="sticky-link">
         <img class = "sticky-logo" src= {logo}></img>
         <p class="sticky-tagline"><i>Donation made Great</i></p>
-      </a>
     </div>
 
     <div class="row">
@@ -32,7 +30,7 @@ function App() {
     </div>
 
     <div class="download">
-    <a href="#">
+    <a href="https://github.com/DON8/DON8-App">
       <div>
         <p class="download-txt"><i>Download</i></p>
       </div>
@@ -43,28 +41,20 @@ function App() {
     <div class="icon-grid">
       <div class="icon-row">
         <div class="grid-column">
-          <a href="#">
           <img src={ui} class = "ui-img"></img>
           <span><br />Appealing Interface</span>
-          </a>
         </div>
         <div class="grid-column">
-          <a href="#">
           <img src={store} class = "store-img"></img>
           <span><br />Local Stores</span>
-          </a>
         </div>
         <div class="grid-column">
-          <a href="#">
           <img src={stats} class = "stats-img"></img>
           <span><br />Your Statistcs</span>
-          </a>
         </div>
         <div class="grid-column">
-          <a href="#">
           <img src={giving} class = "giving-img"></img>
           <span>The Joy of Giving</span>
-          </a>
         </div>
       </div>
     </div>
