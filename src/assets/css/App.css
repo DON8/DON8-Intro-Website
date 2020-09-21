@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    box-sizing: border-box;
 }
 
 .sticky-logo{
@@ -16,10 +17,10 @@
     font-family: 'Roboto';
 }
 
-a:link {color:#0;}  
+a:link {color:#000000;}  
 a:visited {color: #000000;}
-a:hover {color:#0;}
-a:active {color:#0;}
+a:hover {color:#000000;}
+a:active {color:#000000;}
 
 .sticky-container{
     position: fixed;
@@ -89,4 +90,30 @@ a:active {color:#0;}
 
 .download a{
     text-decoration: none;
+}
+
+.icon-grid{
+    font-family: 'Roboto';
+}
+
+.icon-row {
+        content: "";
+        display: table;
+        clear: both;
+        text-align: center;
+        margin-left: 22%;
+  }
+
+.grid-column {
+        float: left;
+        width: 25%;
+        padding: 10px;
+  }
+
+a{
+text-decoration: none;
+}
+
+.ui-img, .store-img, .stats-img, .giving-img{
+    height: 100px;
 }

@@ -38,20 +38,33 @@ function App() {
       </div>
     </a>
     </div>
+<br /><br />
 
     <div class="icon-grid">
       <div class="icon-row">
-        <div class="column-1">
-          
+        <div class="grid-column">
+          <a href="#">
+          <img src={ui} class = "ui-img"></img>
+          <span><br />Appealing Interface</span>
+          </a>
         </div>
-        <div class="column-2">
-          
+        <div class="grid-column">
+          <a href="#">
+          <img src={store} class = "store-img"></img>
+          <span><br />Local Stores</span>
+          </a>
         </div>
-        <div class="column-3">
-          
+        <div class="grid-column">
+          <a href="#">
+          <img src={stats} class = "stats-img"></img>
+          <span><br />Your Statistcs</span>
+          </a>
         </div>
-        <div class="column-4">
-          
+        <div class="grid-column">
+          <a href="#">
+          <img src={giving} class = "giving-img"></img>
+          <span>The Joy of Giving</span>
+          </a>
         </div>
       </div>
     </div>
