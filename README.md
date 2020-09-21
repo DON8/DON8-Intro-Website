@@ -1,4 +1,4 @@
-To run this:
+To run this, make sure you have node installed and run the following command in the terminal:
 
 ### `npm start`
 
