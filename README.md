@@ -1,5 +1,6 @@
 To run this, make sure you have node installed and run the following command in the terminal:
 
+### `npm i`
 ### `npm start`
 
 Runs the app in the development mode.<br />
